@@ -52,7 +52,7 @@ a:hover{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo:hover{
@@ -112,6 +112,7 @@ a:hover{
 
 .menu-links.open{
     max-height: 300px;
+    background-color: rgb(242, 240, 178);
 
 }
 
@@ -364,7 +365,7 @@ article.icon{
 .project-img{
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
 
 .project-title{
@@ -383,6 +384,7 @@ border-color: rgb(163,163,163);
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-top: 6rem;
 }
 .contact-info-upper-container{
     display: flex;
@@ -436,4 +438,11 @@ body{
 
 .black{
     color: black;
+    background-color: white;
+    border-radius: 2rem;
+    border-color: black;
+    text-align: start;
+   
 }
+
+
